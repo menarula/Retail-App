@@ -1,6 +1,6 @@
-# MY RETAIL APP
+# RETAIL APP
 
-My retail app uses item-data.json file to show title, image, price, carousel, add to cart and pick up in store buttons
+Retail app uses item-data.json file to show title, image, price, carousel, add to cart and pick up in store buttons
 
 ## Prerequisites
 
