@@ -1,0 +1,86 @@
+.my-retail {
+	padding: 50px;
+	&-product {
+		text-align: center;
+	}
+	&-title {
+		font-size: 26px;
+		width: 59%;
+		margin: auto;
+		line-height: 1.2em;
+	}
+	&-product-image-wrapper {
+    width: 200px;
+    height: 200px;
+		margin: auto;
+		padding: 20px 0;
+	}
+	&-product-image {
+		display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%
+	}
+	&-price {
+		font-size: 30px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	&-price-qualifier {
+		padding-left: 5px;
+		font-size: 13px;
+		font-weight: normal;
+		text-transform: lowercase;
+	}
+	&-image-carousel {
+		width: 200px;
+    height: 100px;
+		margin: auto;
+	}
+	&-promotions {
+		padding: 10px 0;
+		width: 100%;
+		color: #cc0000;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+	}
+	&-button-wrapper {
+		margin-top: 20px;
+		padding: 0;
+		.btn-sm {
+			padding: 6px;
+			font-size: 13px;
+		}
+		.btn-pickup {
+			float: left;
+			margin-right: 10px;
+		}
+		.btn-block {
+			margin-top: 0;
+			width: 45%;
+		}
+	}
+	.btn-add-to-cart {
+		color: #fff;
+		background-color: #c00;
+		border: 1px #c00 solid;
+	}
+	.btn-pickup {
+		color: #fff;
+		background-color: #000000;
+		border: 1px #000000 solid;
+	}
+}
+.carousel .slide {
+	min-width: 33%;
+}
+@media screen and (max-width: 768px) {
+    .my-retail-title {
+      font-size: 18px;
+			width: 88%;
+    }
+		.my-retail-button-wrapper .btn-block {
+			font-size: 11px;
+		}
+}

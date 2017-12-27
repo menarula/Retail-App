@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Testing buttons with purchasingChannelCode not equal to 0 or 1 should render all other elements except buttons 1`] = `
+"<App itemData={{...}}>
+  <div className=\\"row\\">
+    <div className=\\"my-retail col-xs-12\\">
+      <div className=\\"my-retail-product col-xs-12 col-md-6\\">
+        <div className=\\"my-retail-title\\">
+          Ninja™ Professional Blender with Single Serve Blending Cups
+        </div>
+        <div className=\\"my-retail-product-image-wrapper\\">
+          <img className=\\"my-retail-product-image\\" src=\\"http://target.scene7.com/is/image/Target/14263758\\" alt=\\"product\\" />
+        </div>
+        <div className=\\"my-retail-image-carousel\\">
+          <Slider images={{...}}>
+            <Carousel showArrows={true} showIndicators={false} showStatus={false} showThumbs={false} infiniteLoop={false} selectedItem={0} axis=\\"horizontal\\" verticalSwipe=\\"standard\\" width=\\"100%\\" useKeyboardArrows={false} autoPlay={false} stopOnHover={true} interval={3000} transitionTime={350} swipeScrollTolerance={5} dynamicHeight={false} emulateTouch={false} onClickItem={[Function]} onClickThumb={[Function]} onChange={[Function]} statusFormatter={[Function]} centerMode={false} centerSlidePercentage={80}>
+              <div className={[undefined]}>
+                <div className=\\"carousel carousel-slider\\" style={{...}}>
+                  <button type=\\"button\\" className=\\"control-arrow control-prev control-disabled\\" onClick={[Function]} />
+                  <div className=\\"slider-wrapper axis-horizontal\\" style={{...}}>
+                    <ReactSwipe tagName=\\"ul\\" selectedItem={0} className=\\"slider animated\\" onSwipeMove={[Function]} onSwipeStart={[Function]} onSwipeEnd={[Function]} style={{...}} tolerance={5} onSwipeLeft={[Function]} onSwipeRight={[Function]} allowMouseEvents={false} onSwipeUp={[Function]} onSwipeDown={[Function]}>
+                      <ul onMouseDown={[Function]} onTouchStart={[Function]} onTouchEnd={[Function]} className=\\"slider animated\\" style={{...}}>
+                        <li className=\\"slide selected\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt01\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt02\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt03\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt04\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt05\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt06\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt07\\" />
+                          </div>
+                        </li>
+                      </ul>
+                    </ReactSwipe>
+                  </div>
+                  <button type=\\"button\\" className=\\"control-arrow control-next\\" onClick={[Function]} />
+                </div>
+              </div>
+            </Carousel>
+          </Slider>
+        </div>
+      </div>
+      <div className=\\"my-retail-priceblock col-xs-12 col-md-6\\">
+        <div className=\\"my-retail-price\\">
+          <span className=\\"my-retail-offer-price\\">
+            $139.99
+          </span>
+          <span className=\\"my-retail-price-qualifier\\">
+            Online Price
+          </span>
+        </div>
+        <div className=\\"my-retail-promotions col-xs-12 col-md-6\\">
+          <p>
+            spend $50, ship free
+          </p>
+          <p>
+            $25 gift card with purchase of a select Ninja blender
+          </p>
+        </div>
+        <div className=\\"my-retail-button-wrapper col-xs-12\\" />
+      </div>
+    </div>
+  </div>
+</App>"
+`;
+
+exports[`App should render App 1`] = `
+"<App itemData={{...}}>
+  <div className=\\"row\\">
+    <div className=\\"my-retail col-xs-12\\">
+      <div className=\\"my-retail-product col-xs-12 col-md-6\\">
+        <div className=\\"my-retail-title\\">
+          Ninja™ Professional Blender with Single Serve Blending Cups
+        </div>
+        <div className=\\"my-retail-product-image-wrapper\\">
+          <img className=\\"my-retail-product-image\\" src=\\"http://target.scene7.com/is/image/Target/14263758\\" alt=\\"product\\" />
+        </div>
+        <div className=\\"my-retail-image-carousel\\">
+          <Slider images={{...}}>
+            <Carousel showArrows={true} showIndicators={false} showStatus={false} showThumbs={false} infiniteLoop={false} selectedItem={0} axis=\\"horizontal\\" verticalSwipe=\\"standard\\" width=\\"100%\\" useKeyboardArrows={false} autoPlay={false} stopOnHover={true} interval={3000} transitionTime={350} swipeScrollTolerance={5} dynamicHeight={false} emulateTouch={false} onClickItem={[Function]} onClickThumb={[Function]} onChange={[Function]} statusFormatter={[Function]} centerMode={false} centerSlidePercentage={80}>
+              <div className={[undefined]}>
+                <div className=\\"carousel carousel-slider\\" style={{...}}>
+                  <button type=\\"button\\" className=\\"control-arrow control-prev control-disabled\\" onClick={[Function]} />
+                  <div className=\\"slider-wrapper axis-horizontal\\" style={{...}}>
+                    <ReactSwipe tagName=\\"ul\\" selectedItem={0} className=\\"slider animated\\" onSwipeMove={[Function]} onSwipeStart={[Function]} onSwipeEnd={[Function]} style={{...}} tolerance={5} onSwipeLeft={[Function]} onSwipeRight={[Function]} allowMouseEvents={false} onSwipeUp={[Function]} onSwipeDown={[Function]}>
+                      <ul onMouseDown={[Function]} onTouchStart={[Function]} onTouchEnd={[Function]} className=\\"slider animated\\" style={{...}}>
+                        <li className=\\"slide selected\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt01\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt02\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt03\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt04\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt05\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt06\\" />
+                          </div>
+                        </li>
+                        <li className=\\"slide\\" onClick={[Function]}>
+                          <div>
+                            <img src=\\"http://target.scene7.com/is/image/Target/14263758_Alt07\\" />
+                          </div>
+                        </li>
+                      </ul>
+                    </ReactSwipe>
+                  </div>
+                  <button type=\\"button\\" className=\\"control-arrow control-next\\" onClick={[Function]} />
+                </div>
+              </div>
+            </Carousel>
+          </Slider>
+        </div>
+      </div>
+      <div className=\\"my-retail-priceblock col-xs-12 col-md-6\\">
+        <div className=\\"my-retail-price\\">
+          <span className=\\"my-retail-offer-price\\">
+            $139.99
+          </span>
+          <span className=\\"my-retail-price-qualifier\\">
+            Online Price
+          </span>
+        </div>
+        <div className=\\"my-retail-promotions col-xs-12 col-md-6\\">
+          <p>
+            spend $50, ship free
+          </p>
+          <p>
+            $25 gift card with purchase of a select Ninja blender
+          </p>
+        </div>
+        <div className=\\"my-retail-button-wrapper col-xs-12\\">
+          <button className=\\"btn btn-block btn-sm btn-primary btn-pickup\\">
+            PICK UP IN STORE
+          </button>
+          <button className=\\"btn btn-block btn-sm btn-primary btn-add-to-cart\\">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</App>"
+`;
