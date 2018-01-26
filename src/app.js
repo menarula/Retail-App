@@ -18,7 +18,7 @@ export default class App extends Component {
       <div className="row">
         <div className="my-retail col-xs-12">
           <div className="my-retail-product col-xs-12 col-md-6">
-            <div className="my-retail-title">{ title }</div>
+            <h1 className="my-retail-title">{ title }</h1>
             <div className="my-retail-product-image-wrapper">
               <img className="my-retail-product-image" src={ image } alt="product"/>
             </div>

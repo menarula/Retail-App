@@ -13,7 +13,7 @@
     "lint:check": "git ls-tree -r HEAD --name-only | grep \\.js$ | xargs node ./node_modules/eslint/bin/eslint.js",
     "prepublish": "npm run build",
     "start": "webpack-dev-server --open --content-base src/static/",
-    "test": "NODE_ENV=libprice-build jest --coverage"
+    "test": "jest --coverage"
   },
   "jest": {
     "transform": {
